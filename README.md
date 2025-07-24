@@ -37,7 +37,7 @@ BookBot is a [Boot.dev](https://www.boot.dev) project, simple Python command-lin
 ## Example Output
 
 ```
-=======+==== BOOKBOT ===+========
+============ BOOKBOT ============
 Analyzing book found at: books/frankenstein.txt...
 ----------- Word Count ----------
 Found 73520 total words
@@ -45,7 +45,7 @@ Found 73520 total words
 a: 44210
 b: 8123
 ...
-============= END ===============
+============== END ==============
 ```
 
 ## License
