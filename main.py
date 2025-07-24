@@ -16,7 +16,7 @@ def main():
     book_path = sys.argv[1]    
     book = get_book_test(book_path)
     num_words = words_count(book)
-    print("=======+==== BOOKBOT ===+========")
+    print("============ BOOKBOT ============")
     print(f"Analyzing book found at: {book_path}...")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
@@ -28,6 +28,6 @@ def main():
     for key, value in sorted_list:
         if key.isalpha():
             print(f"{key}: {value}")
-    print("============ END ==============")
+    print("============== END ==============")
 
 main()    
